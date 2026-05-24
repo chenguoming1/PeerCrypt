@@ -1,0 +1,6 @@
+{
+  "name": "Secure Chat & Video",
+  "description": "An end-to-end encrypted chat, real-time file sharing, and video calling application with secure key exchange and peer connection.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
