@@ -1,0 +1,13 @@
+services:
+  secure-p2p-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: secure-p2p-app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      # Define any optional server-side environment variables here if needed
+      # - GEMINI_API_KEY=${GEMINI_API_KEY}
+    restart: always
